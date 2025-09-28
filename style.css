@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-top: 0;
+    color: #333;
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    padding: 0 20px;
+}
+
+.current-player {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#reset-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    background-color: #45a049;
+}
+
+.board-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#game-board {
+    border: 2px solid #333;
+    background-color: #e8c49c; /* Wood-like color for the board */
+}
+
+.message {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    height: 30px;
+}
+
+.winner-message {
+    color: green;
+}
+
+.error-message {
+    color: red;
+}

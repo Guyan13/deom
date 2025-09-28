@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five-in-a-Row Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Five-in-a-Row (Gomoku)</h1>
+        <div class="game-info">
+            <div class="current-player">Current Player: <span id="current-player">Black</span></div>
+            <button id="reset-btn">Reset Game</button>
+        </div>
+        <div class="board-container">
+            <canvas id="game-board" width="600" height="600"></canvas>
+        </div>
+        <div id="game-message" class="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
